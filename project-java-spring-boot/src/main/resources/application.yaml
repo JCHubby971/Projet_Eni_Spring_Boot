@@ -1,0 +1,20 @@
+# Details of queries (dev)
+logging:
+  level:
+    org:
+      springframework:
+        jdbc:
+          core: TRACE
+
+spring:
+  application:
+    name: project-java-spring-boot
+  profiles:
+    active: dev
+  messages:
+    encoding: UTF-8
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
