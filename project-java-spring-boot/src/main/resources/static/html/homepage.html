@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENI-Enchères</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div id="logo">ENI-Enchères</div>
+        <nav>
+            <a href="#">Accueil</a>
+            <a href="#">S'inscrire</a>
+            <a href="#">Se connecter</a>
+        </nav>
+        <div id="date">Date du jour : 22/04/20XX</div>
+    </header>
+
+    <main>
+        <section id="filters">
+            <h2>Filtres</h2>
+            <form>
+                <input type="text" placeholder="Le nom de l'article contient">
+                <select>
+                    <option value="toutes">Toutes</option>
+                    <option value="ameublement">Ameublement</option>
+                    <option value="informatique">Informatique</option>
+                    <option value="sport-loisirs">Sport/Loisirs</option>
+                    <option value="vetements">Vêtements</option>
+                </select>
+                <button type="submit">Rechercher</button>
+                <button type="reset">Annuler</button>
+            </form>
+        </section>
+
+        <section id="auctions">
+            <h2>Liste des enchères</h2>
+            <div class="auction">
+                <img src="#" alt="Disque dur">
+                <h3>Disque Dur</h3>
+                <p>Prix : 1 point(s)</p>
+                <p>Fin de l'enchère : 01/06/20XX</p>
+                <p>Vendeur : coach_toto</p>
+            </div>
+            <!-- Répète cette structure pour les autres enchères -->
+        </section>
+    </main>
+
+    <footer>
+        <p>© 20XX ENI-Enchères. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
